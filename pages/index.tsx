@@ -7,16 +7,7 @@ import { GetStaticProps } from 'next'
 import cn from 'classnames';
 import React from 'react'
 
-export default function Home({
-  allPostsData
-}: {
-  allPostsData: {
-    date: string
-    title: string
-    id: string
-  }[]
-}) {
-
+export default function Home() {
   const [expand, setExpand] = React.useState(false);
 
   function handleExpand() {
@@ -50,7 +41,7 @@ export default function Home({
                   <code className="flex-none min-w-full p-5">
                     <div className="flex">
                       <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3">
-                        <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                       </svg>
                       <p className="font-['terminal'] flex-auto">
                         Building website...
@@ -90,7 +81,7 @@ export default function Home({
                     </div>
                     <div className="flex my-2">
                       <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3">
-                        <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                       </svg>
                       <p className="font-['terminal'] flex-auto">
                         Shilling socials...
@@ -131,7 +122,25 @@ export default function Home({
                         <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                       </svg>
                       <p className="flex-auto font-['terminal']">
-                        <span className='text-green-400'>Scroll down for more</span>
+                        <span className='text-green-400'>COMPLETE</span>
+                      </p>
+                    </div>
+                    <div className="flex my-2">
+                      <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3">
+                        <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                      </svg>
+                      <p className="font-['terminal'] flex-auto">
+                        Navigation...
+                      </p>
+                    </div>
+                    <div className="flex">
+                      <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
+                      </svg>
+                      <p className="font-['terminal'] flex-auto">
+                        <span className='text-green-400 underline'>
+                          <Link href={'/about'}>ABOUT ME</Link>
+                        </span>
                       </p>
                     </div>
                   </code>
@@ -141,44 +150,6 @@ export default function Home({
           </div>
         </div>
       </header>
-
-
-      <section className="flex flex-row flex-wrap justify-center w-full">
-        <h1 className='text-4xl font-bold w-full text-center'>Bout Ye</h1>
-
-        <div className='flex w-full mx-auto justify-center my-2'>
-          <Image className='rounded-full' priority src="/images/kd.jpeg" width='100' height='100' />
-        </div>
-
-        <p className="text-black text-xl font-semibold text-center mx-auto my-2">
-          Hey! I'm Kyle, I work as a Solution Architect at Kainos.
-        </p>
-      </section>
-      <section>
-        <h2 className="text-3xl font-bold underline">Blog</h2>
-        <ul>
-          {allPostsData.map(({ id, date, title }) => (
-            <li key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
     </Layout>
   )
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }

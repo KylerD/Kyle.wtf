@@ -25,21 +25,14 @@ export default function Layout({
       </Head>
       {!home && (
         <>
-          <header className='flex flex-row flex-nowrap w-full'>
+          <header className='flex flex-row flex-nowrap w-full justify-center'>
             <Link href="/">
-              <h1 className='text-xl font-bold text-green-500 hover: cursor-pointer'>{name}</h1>
+              <h1 className='m-4 text-xl font-bold text-green-500 hover: cursor-pointer'>{name}</h1>
             </Link>
           </header>
         </>
       )}
       <main>{children}</main>
-      {!home && (
-        <div >
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </>
   )
 }
