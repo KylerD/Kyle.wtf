@@ -6,9 +6,84 @@
   .nav-icon {
     @apply flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-2 bg-purple text-white shadow-purple border-solid border-2 border-transparent transition-all ease-linear duration-300 hover:bg-white hover:text-purple hover:shadow-purple-hover;
   }
+
+  #tailwind {
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  #typescript {
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+  }
+
+  #next {
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  #vercel {
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+  }
+
+  #socials {
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  #employer {
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+  }
+
+  #twitter {
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  #linkedin {
+    animation-delay: 2.25s;
+    animation-fill-mode: forwards;
+  }
+
+  #navigation {
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+  }
+
+  #about {
+    animation-delay: 2.75s;
+    animation-fill-mode: forwards;
+  }
+
+  #ascii {
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
 }
 
 @font-face {
   font-family: terminal;
   src: url('../public/font/terminal.ttf');
+}
+
+@keyframes typing-terminal {
+  0% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes flicker-on {
+  0%    { opacity:1; }
+  10%   { opacity:0; }
+  20%   { opacity:1; }
+  30%   { opacity:0; }
+  40%   { opacity:1; }
+  50%   { opacity: 0; }
+  100%  { opacity:1; }
 }

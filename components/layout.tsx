@@ -23,15 +23,15 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <title>{siteTitle}</title>
       </Head>
-      {!home && (
-        <>
-          <header className='flex flex-row flex-nowrap w-full justify-center'>
-            <Link href="/">
-              <h1 className='m-4 text-xl font-bold text-green-500 hover: cursor-pointer'>{name}</h1>
-            </Link>
-          </header>
-        </>
-      )}
+
+      <>
+        <header className='flex flex-row flex-nowrap w-full justify-center'>
+          <Link href="/">
+            <h1 className='m-4 text-4xl font-bold text-green-500 hover: cursor-pointer'>{name}</h1>
+          </Link>
+        </header>
+      </>
+
       <main>{children}</main>
     </>
   )
