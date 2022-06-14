@@ -16,11 +16,12 @@ export default function Layout({
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="all" key="robots" />
         <meta
           name="description"
-          content="Kyle Davidson's website"
+          content="Kyle Davidson's website" key="description"
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content={siteTitle} key="title" />
         <title>{siteTitle}</title>
       </Head>
 
