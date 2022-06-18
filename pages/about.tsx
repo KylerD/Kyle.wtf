@@ -48,7 +48,7 @@ export default function Home({
                     </div>
                     <div className="flex mx-auto w-full">
                       <p className="text-center text-2xl mx-auto whitespace-normal">
-                        Hey there, I'm Kyle! I've been coding for over 10 years and currently work as a Solution Architect at <span className='text-green-400 underline'>
+                        Hey there, I'm Kyle! I've been designing and building software systems for over 10 years and currently work as a Solution Architect at <span className='text-green-400 underline'>
                           <Link href={'https://www.kainos.com/'}>KAINOS</Link>
                         </span>. I get to work on a bunch of cool stuff as part of my day to day, but some of the things I'm most proud of would be:
                       </p>

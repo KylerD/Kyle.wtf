@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout home>
 
-      <header className='flex flex-row flex-wrap w-full h-screen justify-center'>
+      <header className='flex flex-row flex-wrap w-full h-full justify-center'>
         <div className="w-full md:w-2/3 p-4">
           <div className="w-full flex-row flex-wrap">
             <div className="relative col-span-3 bg-slate-800 rounded-xl shadow-lg xl:ml-0 dark:shadow-none dark:ring-1 dark:ring-inset dark:ring-white/10">
@@ -24,7 +24,7 @@ export default function Home() {
                   <code className="flex-none min-w-full p-5 space-y-4">
                     {/* Web Stack */}
                     <div className="flex">
-                      <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3">
+                      <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-pink-400 w-2 h-6 mr-3">
                         <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                       </svg>
                       <div className='relative'>
@@ -39,7 +39,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="tailwind"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
 
@@ -52,7 +52,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="typescript"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
@@ -64,7 +64,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="next"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
@@ -76,7 +76,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="vercel"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
@@ -90,7 +90,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="socials"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-pink-400 w-2 h-6 mr-3">
                           <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                         </svg>
                         <p className="font-['terminal'] flex-auto text-purple-400">
@@ -102,11 +102,11 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="employer"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
-                          ...EMPLOYER: <span className='text-green-400 underline'>
+                          ...EMPLOYER: <span className='text-green-400 underline mr-px'>
                             <Link href={'https://www.kainos.com/'}>KAINOS</Link>
                           </span>
                         </p>
@@ -116,11 +116,11 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="twitter"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
-                          ...TWITTER: <span className='text-green-400 underline'>
+                          ...TWITTER: <span className='text-green-400 underline mr-px'>
                             <Link href={'https://twitter.com/iKyleDavidson'}>TWEETING</Link>
                           </span>
                         </p>
@@ -130,11 +130,11 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="linkedin"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
-                          ...LINKEDIN: <span className='text-green-400 underline'>
+                          ...LINKEDIN: <span className='text-green-400 underline mr-px'>
                             <Link href={'https://www.linkedin.com/in/kyledavidson200/'}>LINKED</Link>
                           </span>
                         </p>
@@ -146,7 +146,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="navigation"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-pink-400 w-2 h-6 mr-3">
                           <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                         </svg>
                         <p className="font-['terminal'] flex-auto text-purple-400">
@@ -158,7 +158,7 @@ export default function Home() {
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="about"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none overflow-visible text-green-400 w-auto h-6 mr-3">
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex-auto">
