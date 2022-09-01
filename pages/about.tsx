@@ -3,19 +3,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Home({
-  allPostsData
-}: {
-  allPostsData: {
-    date: string
-    title: string
-    id: string
-  }[]
-}) {
-
+export default function About() {
   return (
     <Layout>
-      <header className='flex flex-row flex-wrap w-full h-screen justify-center'>
+      <div className='flex flex-row flex-wrap w-full h-screen justify-center'>
         <div className="w-full md:w-2/3 p-4">
           <div className="w-full flex-row flex-wrap">
             <div className="relative col-span-3 bg-slate-800 rounded-xl shadow-lg xl:ml-0 dark:shadow-none dark:ring-1 dark:ring-inset dark:ring-white/10">
@@ -86,7 +77,7 @@ export default function Home({
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </Layout >
   )
 }

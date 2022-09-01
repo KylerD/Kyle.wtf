@@ -57,6 +57,11 @@
     animation-fill-mode: forwards;
   }
 
+  #posts {
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+
   #ascii {
     animation-delay: 1s;
     animation-fill-mode: forwards;
@@ -86,4 +91,10 @@
   40%   { opacity:1; }
   50%   { opacity: 0; }
   100%  { opacity:1; }
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
 }

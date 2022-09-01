@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout home>
 
-      <header className='flex flex-row flex-wrap w-full h-full justify-center'>
+      <div className='flex flex-row flex-wrap w-full h-full justify-center'>
         <div className="w-full md:w-2/3 p-4">
           <div className="w-full flex-row flex-wrap">
             <div className="relative col-span-3 bg-slate-800 rounded-xl shadow-lg xl:ml-0 dark:shadow-none dark:ring-1 dark:ring-inset dark:ring-white/10">
@@ -168,13 +168,27 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+                    <div className="flex">
+                      <div className='relative flex'>
+                        <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
+                        animate-terminal" id="posts"></span>
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
+                          <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
+                        </svg>
+                        <p className="font-['terminal'] flex-auto">
+                          ...POSTS: <span className='text-green-400 underline'>
+                            <Link href={'/posts'}>POSTED</Link>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
                   </code>
                 </pre>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </Layout>
   )
 }
