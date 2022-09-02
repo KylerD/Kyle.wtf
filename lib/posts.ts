@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
+import { PostData } from '../models/postData'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
@@ -47,7 +48,7 @@ export function getAllPostIds() {
   })
 }
 
-export async function getPostData(id: string) {
+export async function getPostData(id: string): Promise<PostData> {
   const fullPath = path.join(postsDirectory, `${id}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 

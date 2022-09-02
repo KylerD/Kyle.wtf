@@ -4,15 +4,12 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import Blog from '../../components/blog'
 import ReactMarkdown from '../../node_modules/react-markdown/index'
 import CodeBlock from '../../components/codeblock'
+import { PostData } from '../../models/postData'
 
 export default function Post({
   postData
 }: {
-  postData: {
-    title: string
-    date: string
-    contentHtml: string
-  }
+  postData: PostData
 }) {
   return (
     <Blog>
