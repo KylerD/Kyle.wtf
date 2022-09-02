@@ -24,7 +24,7 @@ export default function Post({
         <span className='w-full border-b-4 border-b-green-500 border-dashed mb-6'></span>
 
         <div className="w-full">
-          <ReactMarkdown components={CodeBlock} className="prose-lg max-w-7xl text-center prose-p:text-2xl prose-p:text-white prose-p:tracking-wide prose-strong:animate-powerful prose-p:subpixel-antialiased prose-a:text-green-500 prose-a:underline prose-h2:text-green-500 prose-h2:font-['terminal'] mb-6 prose-img:mx-auto prose-ul:text-xl prose-ol:text-white prose-ol:text-2xl prose-ul:text-gray-600 prose-ul:list-disc prose-ul:max-w-5xl prose-ul:mx-auto prose-ol:list-decimal prose-ol:max-w-4xl prose-ol:mx-auto prose-pre:bg-white" >{postData.markdown}</ReactMarkdown>
+          <ReactMarkdown components={CodeBlock} className="mx-auto prose-lg max-w-7xl text-center prose-p:text-2xl prose-p:text-white prose-p:tracking-wide prose-strong:animate-powerful prose-p:subpixel-antialiased prose-a:text-green-500 prose-a:underline prose-h2:text-green-500 prose-h2:font-['terminal'] mb-6 prose-img:mx-auto prose-ul:text-xl prose-ol:text-white prose-ol:text-2xl prose-ul:text-gray-600 prose-ul:list-disc prose-ul:max-w-5xl prose-ul:mx-auto prose-ol:list-decimal prose-ol:max-w-4xl prose-ol:mx-auto prose-pre:bg-white" >{postData.markdown}</ReactMarkdown>
         </div>
 
 

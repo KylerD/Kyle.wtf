@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import KyleHead from './kyleHead'
 
 export const name = '< Kyle Davidson />'
@@ -13,6 +13,8 @@ export default function Layout({
   children: React.ReactNode
   home?: boolean
 }) {
+  useEffect(() => { document.querySelector("body").classList.add("bg-white") });
+
   return (
     <>
       <KyleHead></KyleHead>
