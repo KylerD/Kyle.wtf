@@ -1,6 +1,6 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import React, { useEffect } from 'react'
+import KyleHead from './kyleHead'
 
 export const name = '< Kyle Davidson />'
 export const siteTitle = '<Kyle />'
@@ -15,16 +15,7 @@ export default function Blog({
 
   return (
     <>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="robots" content="all" key="robots" />
-        <meta
-          name="description"
-          content="Kyle Davidson's website" key="description"
-        />
-        <meta name="og:title" content={siteTitle} key="title" />
-        <title>{siteTitle}</title>
-      </Head>
+      <KyleHead></KyleHead>
 
       <>
         <header className='flex flex-row flex-nowrap w-full justify-center bg-slate-600'>
