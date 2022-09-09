@@ -21,15 +21,14 @@ export default function About() {
 
               <div className="relative">
                 <pre className="text-lg leading-6 text-slate-50 flex ligatures-none">
-                  <code className="min-w-full p-5 space-y-4  font-['terminal']">
-                    {/* Web Stack */}
+                  <code className="min-w-full p-5 space-y-6 font-['terminal']">
                     <div className="flex w-full">
                       <p className="flex-auto text-6xl text-purple-400 mx-auto text-center">
                         BOUT YE
                       </p>
                     </div>
                     {/* About Me */}
-                    <div className="flex relative w-[16rem] h-[16rem] md:w-[32rem] md:h-[32rem] mx-auto">
+                    <div className="flex relative w-[16rem] h-[16rem] md:w-[24rem] md:h-[24rem] mx-auto">
                       <span className="absolute z-10 h-full w-full animate-flicker opacity-0" id="ascii">
                         <Image priority src="/images/kdascii.png" layout='fill' />
                       </span>
@@ -39,35 +38,41 @@ export default function About() {
                     </div>
                     <div className="flex mx-auto w-full">
                       <p className="text-center text-2xl mx-auto whitespace-normal">
-                        Hey there, I'm Kyle! I've been designing and building software systems for over 10 years and currently work as a Solution Architect at <span className='text-green-400 underline'>
-                          <Link href={'https://www.kainos.com/'}>KAINOS</Link>
-                        </span>. I get to work on a bunch of cool stuff as part of my day to day, but some of the things I'm most proud of would be:
+                        As a solution architect and technology leader within <span className='text-green-400 underline'>
+                          <Link href={'https://www.kainos.com/'}>Kainos</Link>
+                        </span> I have over 10 years experience designing and building software systems. I've done a bit of everything from driving large scale transformations to helping shape the technical direction of our company.
                       </p>
                     </div>
-                    <div className="flex mx-auto whitespace-normal">
+                    <div className="flex mx-auto whitespace-normal mb-32">
                       <ol className="mx-auto max-w-4xl text-white text-2xl list-none text-center">
                         <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          Lead Architect for the <span className='text-green-400 underline'>
+                          <p className='text-purple-400'>2018 - 2022 (Project)</p>
+                          Lead Architect of the industry award winning Department for Transport (DfT) <span className='text-green-400 underline'>
                             <Link href={'https://www.gov.uk/guidance/plan-and-manage-roadworks'}>Street Manager</Link>
-                          </span> service with the Department for Transport which my team and I delivered over 4 years.
+                          </span> service
                         </li>
 
                         <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          Lead Curator of <span className='text-green-400 underline'>
+                          <p className='text-purple-400'>2021 - current (Community)</p>
+
+                          Lead curator of Belfast's largest annual technology conference <span className='text-green-400 underline'>
                             <Link href={'https://beltech.co/'}>Beltech</Link>
                           </span>
                         </li>
 
                         <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          Supporting local start-ups in Belfast with advice and assistance via Kainos' start-up initiative
+                          <p className='text-purple-400'>2021 - current (Capability)</p>
+                          Leading the Kainos JavaScript Community of over 70+ engineers covering standards, tools, techniques and technologies enabling company wide strategy
                         </li>
 
-                        <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          Driving capability initiatives that align our engineers on best practices and standards. Currently I lead our JavaScript community
+                        <li className="my-2 border-t-green-400 border-dashed  border-t-2  py-2">
+                          <p className='text-purple-400'>2021 - current (Presales)</p>
+                          Successfully winning new business opportunities worth upwards of £16m
                         </li>
 
                         <li className="my-2 border-t-green-400 border-b-green-400 border-dashed border-b-2 border-t-2  py-2">
-                          Working with our recruitment and pre-sales teams to find more talented people and secure more business
+                          <p className='text-purple-400'>2017 - current (Recruitment)</p>
+                          Active technical recruitment for Kainos digital services division
                         </li>
                       </ol>
                     </div>
