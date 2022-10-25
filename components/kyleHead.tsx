@@ -18,7 +18,8 @@ export default function KyleHead() {
       <meta name="og:url" content={webUrl} key="url" />
       <meta name="og:type" content="website" key="type" />
       <meta name="twitter:card" content="summary" />
-      <meta name="og:image" content="favicon.ico" />
+      <meta name="twitter:text:title" content={siteTitle} />
+      <meta name="og:image" content="/favicon.ico" />
 
       <title>{siteTitle}</title>
     </Head>
