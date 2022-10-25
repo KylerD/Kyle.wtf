@@ -66,13 +66,13 @@ export default function About() {
                         </li>
 
                         <li className="my-2 border-t-green-400 border-dashed  border-t-2  py-2">
-                          <p className='text-purple-400'>2021 - current (Presales)</p>
-                          Successfully winning new business opportunities worth upwards of £16m
+                          <p className='text-purple-400'>2020 - current (Presales)</p>
+                          Working to ensure successful closure of new business opportunities.
                         </li>
 
                         <li className="my-2 border-t-green-400 border-b-green-400 border-dashed border-b-2 border-t-2  py-2">
                           <p className='text-purple-400'>2017 - current (Recruitment)</p>
-                          Active technical recruitment for Kainos digital services division
+                          Technical Recruiter for Kainos digital services division
                         </li>
                       </ol>
                     </div>
