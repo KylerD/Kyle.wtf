@@ -2,6 +2,9 @@ import Layout from '../components/layout'
 import Link from 'next/link'
 import React from 'react'
 
+import { ArrowUpOnSquareIcon, MapIcon } from "@heroicons/react/20/solid";
+
+
 export default function Home() {
   return (
     <Layout home>
@@ -182,6 +185,34 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+
+                    {/* Apps */}
+                    <div className="flex my-2">
+                      <div className='relative flex'>
+                        <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
+                        animate-terminal" id="apps"></span>
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-pink-400 w-2 h-6 mr-3">
+                          <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                        </svg>
+                        <p className="font-['terminal'] flex-auto text-purple-400">
+                          APPS...
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className='relative flex'>
+                        <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
+                        animate-terminal" id="journey"></span>
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
+                          <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
+                        </svg>
+                        <p className="font-['terminal'] flex flex-row">
+                          ...JOURNEY: <span className='text-green-400'>
+                            <a href='https://journeyplan.app/'><MapIcon className='text-green-400 h-6 w-6' /></a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
                   </code>
                 </pre>
               </div>
@@ -189,6 +220,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </Layout>
+    </Layout >
   )
 }
