@@ -15,7 +15,7 @@ export default function Post({
     <Blog>
       <div className='flex flex-row flex-wrap w-full justify-evenly'>
         <div className="my-6 mx-auto flex flex-col font-['terminal'] w-full">
-          <h1 id="title" className="font-bold leading-tight text-6xl mt-0 mb-2 text-center text-green-500 mx-auto">{postData.title}</h1>
+          <h1 id="title" className="font-bold leading-tight text-4xl sm:text-6xl mt-0 mb-2 text-center text-green-500 mx-auto">{postData.title}</h1>
 
           <p className="text-2xl font-bold text-center mx-auto text-green-500">
             <Date dateString={postData.date} />
