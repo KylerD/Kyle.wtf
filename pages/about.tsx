@@ -24,7 +24,7 @@ export default function About() {
                   <code className="min-w-full p-5 space-y-6 font-['terminal']">
                     <div className="flex w-full">
                       <p className="flex-auto text-6xl text-purple-400 mx-auto text-center">
-                        BOUT YE
+                        Hello World
                       </p>
                     </div>
                     {/* About Me */}
@@ -38,22 +38,19 @@ export default function About() {
                     </div>
                     <div className="flex mx-auto w-full">
                       <p className="text-center text-2xl mx-auto whitespace-normal">
-                        As a solution architect and technology leader within <span className='text-green-400 underline'>
+                        Formerly the Lead Architect for Transport in <span className='text-green-400 underline'>
                           <Link href={'https://www.kainos.com/'}>Kainos</Link>
-                        </span> I have over 10 years experience designing and building software systems. I've done a bit of everything from driving large scale transformations to helping shape the technical direction of our company.
+                        </span> digital services division, I am now Engineering Lead at <span className='text-green-400 underline'>
+                          <Link href={'https://hamiltonrobson.com/'}>Hamilton Robson</Link>
+                        </span>, and the CTO of <span className='text-green-400 underline'>
+                          <Link href={'https://www.track.software/'}>Track Software</Link>
+                        </span>. My experience includes successfully leading multimillion-pound projects that have delivered award winning nationwide digital services, driving digital transformation initiatives, and leveraging emerging technologies to drive growth and efficiency. Some recent achievements I'm proud of include:
                       </p>
                     </div>
                     <div className="flex mx-auto whitespace-normal mb-32">
                       <ol className="mx-auto max-w-4xl text-white text-2xl list-none text-center">
                         <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          <p className='text-purple-400'>2018 - 2022 (Project)</p>
-                          Lead Architect of the industry award winning Department for Transport (DfT) <span className='text-green-400 underline'>
-                            <Link href={'https://www.gov.uk/guidance/plan-and-manage-roadworks'}>Street Manager</Link>
-                          </span> service
-                        </li>
-
-                        <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          <p className='text-purple-400'>2021 - current (Community)</p>
+                          <p className='text-purple-400'>2021 - 2023</p>
 
                           Lead curator of Belfast's largest annual technology conference <span className='text-green-400 underline'>
                             <Link href={'https://beltech.co/'}>Beltech</Link>
@@ -61,19 +58,18 @@ export default function About() {
                         </li>
 
                         <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
-                          <p className='text-purple-400'>2021 - current (Capability)</p>
-                          Leading the Kainos JavaScript Community of over 70+ engineers covering standards, tools, techniques and technologies enabling company wide strategy
+                          <p className='text-purple-400'>2021 - 2023</p>
+                          Leader of the Kainos JavaScript Community of over 80+ engineers. This group plays a key role in setting and implementing company-wide strategy around web development standards, tools, techniques, and technologies.
                         </li>
 
-                        <li className="my-2 border-t-green-400 border-dashed  border-t-2  py-2">
-                          <p className='text-purple-400'>2020 - current (Presales)</p>
-                          Working to ensure successful closure of new business opportunities.
+
+                        <li className="my-2 border-t-green-400 border-dashed border-t-2 py-2">
+                          <p className='text-purple-400'>2018 - 2022</p>
+                          Lead Architect of the industry award winning Department for Transport (DfT) <span className='text-green-400 underline'>
+                            <Link href={'https://www.gov.uk/guidance/plan-and-manage-roadworks'}>Street Manager</Link>
+                          </span> service
                         </li>
 
-                        <li className="my-2 border-t-green-400 border-b-green-400 border-dashed border-b-2 border-t-2  py-2">
-                          <p className='text-purple-400'>2017 - current (Recruitment)</p>
-                          Technical Recruiter for Kainos digital services division
-                        </li>
                       </ol>
                     </div>
                   </code>

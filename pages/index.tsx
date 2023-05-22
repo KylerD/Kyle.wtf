@@ -2,8 +2,6 @@ import Layout from '../components/layout'
 import Link from 'next/link'
 import React from 'react'
 
-import { ArrowUpOnSquareIcon, MapIcon } from "@heroicons/react/20/solid";
-
 
 export default function Home() {
   return (
@@ -207,8 +205,36 @@ export default function Home() {
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
                         </svg>
                         <p className="font-['terminal'] flex flex-row">
-                          ...JOURNEY: <span className='text-green-400'>
-                            <a href='https://journeyplan.app/'><MapIcon className='text-green-400 h-6 w-6' /></a>
+                          ...JOURNEY: <span className='text-green-400 underline'>
+                            <a href='https://journeyplan.app/' target="_blank">https://journeyplan.app/plan</a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className='relative flex'>
+                        <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
+                        animate-terminal" id="recipeasy"></span>
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
+                          <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
+                        </svg>
+                        <p className="font-['terminal'] flex flex-row">
+                          ...RECIPEASY: <span className='text-green-400 underline'>
+                            <a href='https://recipeasy.xyz/recipe' target="_blank">https://recipeasy.xyz/recipe</a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className='relative flex'>
+                        <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
+                        animate-terminal" id="web-surgeon"></span>
+                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
+                          <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
+                        </svg>
+                        <p className="font-['terminal'] flex flex-row">
+                          ...WEB SURGEON: <span className='text-green-400 underline'>
+                            <a href='https://web-surgeon.com/' target="_blank">https://web-surgeon.com/</a>
                           </span>
                         </p>
                       </div>
@@ -220,6 +246,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </Layout >
+    </Layout>
   )
 }

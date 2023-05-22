@@ -72,6 +72,16 @@
     animation-fill-mode: forwards;
   }
 
+  #recipeasy {
+    animation-delay: 3.75s;
+    animation-fill-mode: forwards;
+  }
+
+  #web-surgeon {
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+
   #ascii {
     animation-delay: 1s;
     animation-fill-mode: forwards;
