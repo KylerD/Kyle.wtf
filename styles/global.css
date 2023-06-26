@@ -32,53 +32,48 @@
     animation-fill-mode: forwards;
   }
 
-  #employer {
+  #twitter {
     animation-delay: 1.75s;
     animation-fill-mode: forwards;
   }
 
-  #twitter {
+  #linkedin {
     animation-delay: 2s;
     animation-fill-mode: forwards;
   }
 
-  #linkedin {
+  #navigation {
     animation-delay: 2.25s;
     animation-fill-mode: forwards;
   }
 
-  #navigation {
+  #about {
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
   }
 
-  #about {
+  #posts {
     animation-delay: 2.75s;
     animation-fill-mode: forwards;
   }
 
-  #posts {
+  #apps {
     animation-delay: 3s;
     animation-fill-mode: forwards;
   }
 
-  #apps {
+  #journey {
     animation-delay: 3.25s;
     animation-fill-mode: forwards;
   }
 
-  #journey {
+  #recipeasy {
     animation-delay: 3.5s;
     animation-fill-mode: forwards;
   }
 
-  #recipeasy {
-    animation-delay: 3.75s;
-    animation-fill-mode: forwards;
-  }
-
   #web-surgeon {
-    animation-delay: 4s;
+    animation-delay: 3.75s;
     animation-fill-mode: forwards;
   }
 

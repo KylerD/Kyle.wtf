@@ -102,20 +102,6 @@ export default function Home() {
                     <div className="flex">
                       <div className='relative flex'>
                         <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
-                        animate-terminal" id="employer"></span>
-                        <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
-                          <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
-                        </svg>
-                        <p className="font-['terminal'] flex-auto">
-                          ...EMPLOYER: <span className='text-green-400 underline mr-px'>
-                            <Link href={'https://www.kainos.com/'}>KAINOS</Link>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex">
-                      <div className='relative flex'>
-                        <span className="absolute z-10 top-0 right-0 inline-block h-full w-full bg-slate-800 
                         animate-terminal" id="twitter"></span>
                         <svg viewBox="0 -9 3 24" aria-hidden="true" className="flex-none text-green-400 w-2 h-6 mr-3">
                           <line x1="0" y1="5" x2="5" y2="5" stroke="currentColor" />
