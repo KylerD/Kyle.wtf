@@ -192,7 +192,7 @@ export default function Home() {
                         </svg>
                         <p className="font-['terminal'] flex flex-row">
                           ...<span className='text-green-400 underline'>
-                            <a href='https://recipeasy.xyz/recipe' target="_blank">RECIPEASY</a>
+                            <a href='https://recipeasy.xyz' target="_blank">RECIPEASY</a>
                           </span>
                         </p>
                       </div>
